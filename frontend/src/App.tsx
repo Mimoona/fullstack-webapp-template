@@ -1,4 +1,3 @@
-
 import './App.css'
 import {useEffect, useState} from "react";
 import axios from "axios";
@@ -17,12 +16,12 @@ function App() {
             });
     }, []);
 
-  return (
-    <>
+    return (
+
         <h1>{data}</h1>
 
-    </>
-  )
+
+    )
 }
 
 export default App
