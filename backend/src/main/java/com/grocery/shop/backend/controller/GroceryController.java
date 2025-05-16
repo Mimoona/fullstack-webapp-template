@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/grocery-shop")
+@RequestMapping("api/webapp")
 public class GroceryController {
 
     @GetMapping("/greet")

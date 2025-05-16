@@ -8,9 +8,8 @@ function App() {
     const [data, setData] = useState<string>("");
 
     useEffect(() => {
-        axios.get("api/grocery-shop/greet")
+        axios.get("api/webapp/greet")
             .then(response => {
-                console.log(response.data);
                 setData(response.data);
             })
             .catch(error => {
