@@ -60,7 +60,7 @@
     </dependencies>
 
     <build>
-        <finalName>groceryshop</finalName>
+        <finalName>webapp</finalName>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
